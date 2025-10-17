@@ -1,0 +1,10 @@
+com/velocitychat/chat/ChatManager$ChatPreferences.class
+com/velocitychat/chat/ChatManager$ConversationContext.class
+com/velocitychat/config/VelocityChatConfig.class
+com/velocitychat/command/ReplyCommand.class
+com/velocitychat/chat/ChatChannel.class
+com/velocitychat/util/TextFormatter.class
+com/velocitychat/VelocityChatPlugin.class
+com/velocitychat/command/MessageCommand.class
+com/velocitychat/chat/ChatManager.class
+com/velocitychat/command/ChatCommand.class

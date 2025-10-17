@@ -1,0 +1,9 @@
+{
+  "id": "velocitychat",
+  "name": "VelocityChat",
+  "version": "1.0.0-SNAPSHOT",
+  "authors": [
+    "elimcgehee"
+  ],
+  "main": "com.velocitychat.VelocityChatPlugin"
+}

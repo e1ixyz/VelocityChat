@@ -1,0 +1,45 @@
+channels:
+  default: SERVER
+  prefixes:
+    network: "&b[Network]"
+    staff: "&c[Staff]"
+  formats:
+    network: "{prefix} {player}: {message}"
+    staff: "{prefix} {player}: {message}"
+  alert:
+    prefix: "&4[Alert]"
+    format: "{prefix} {message}"
+settings:
+  force-channel-intercept: false
+private-messages:
+  send: "&d[To {target}] {message}"
+  receive: "&d[From {sender}] {message}"
+messages:
+  channel-switched:
+    server: "&aYou are now talking in server chat."
+    network: "&aYou are now talking in network chat."
+    staff: "&aYou are now talking in staff chat."
+  channel-already: "&eYou are already chatting in {channel} chat."
+  channel-current: "&7You are currently in {channel} chat."
+  no-permission: "&cYou do not have permission to use that channel."
+  not-staff: "&cYou must have staff permissions to do that."
+  alert-sent: "&aAlert sent to the network."
+  ignored-add: "&eYou are now ignoring {target}."
+  ignored-remove: "&eYou are no longer ignoring {target}."
+  ignored-list-empty: "&7You are not ignoring anyone."
+  ignored-list: "&7You are ignoring: {list}"
+  cannot-ignore-self: "&cYou cannot ignore yourself."
+  cannot-ignore-staff: "&cYou cannot ignore staff members."
+  target-needed: "&cYou must specify a player."
+  message-needed: "&cYou must provide a message."
+  player-not-found: "&cCould not find player named {target}."
+  player-not-online: "&c{target} is not online."
+  staff-channel-required: "&cOnly staff members can join the staff chat."
+  ignored-you: "&c{target} is ignoring you."
+  must-be-player: "&cYou must be a player to use that command."
+  cannot-message-self: "&cYou cannot message yourself."
+  secure-chat-restricted: "&cSecure chat is enabled on this server, so VelocityChat channels are unavailable. You have been switched back to server chat."
+  channel-listen-enabled: "&aYou will now see {channel} chat."
+  channel-listen-disabled: "&cYou will no longer see {channel} chat."
+  reply-no-target: "&cNo one has messaged you yet."
+  reply-target-offline: "&c{target} is no longer online."
