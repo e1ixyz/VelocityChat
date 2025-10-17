@@ -16,7 +16,7 @@ VelocityChat is a Velocity proxy plugin that unifies chat across a network while
 | `/chat server` | Speak only to the local server chat. | `velocitychat.use` (default) |
 | `/chat network [message]` | Switch your speaking channel to network; optional message sends immediately. | `velocitychat.use` (default) |
 | `/chat staff [message]` | Switch your speaking channel to staff; optional message sends immediately. | `Velocitychat.staff` |
-| `/chat listen <network|staff> [on|off]` | Toggle or explicitly enable/disable viewing of extra channels. | `velocitychat.use` (default) for network, `Velocitychat.staff` for staff |
+| `/chat listen <network\|staff> [on|off]` | Toggle or explicitly enable/disable viewing of extra channels. | `velocitychat.use` (default) for network, `Velocitychat.staff` for staff |
 | `/chat ignore [player]` | Toggle ignoring a player (lists ignores when used without a name). | `velocitychat.use` (default) |
 | `/chat alert <message>` | Send a network-wide alert. | `Velocitychat.staff` |
 | `/msg <player> <message>` | Send a private message across servers. | `velocitychat.use` (default) |
@@ -56,4 +56,3 @@ The shaded jar is produced at `target/velocitychat-1.0.0-SNAPSHOT.jar`.
 2. Copy it into your Velocity proxy `plugins/` directory.
 3. Start or reload the proxy to generate the default configuration.
 4. Adjust `plugins/VelocityChat/config.yml` as needed, then run `/velocity plugins reload velocitychat` or restart to apply changes.
-# VelocityChat
