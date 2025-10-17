@@ -5,7 +5,7 @@ VelocityChat is a Velocity proxy plugin that unifies chat across a network while
 ## Features
 - Channel subscriptions let players listen to server chat (always on) and optionally add network/staff feeds using `/chat listen <network|staff>`.
 - Speaking channel can be switched with `/chat server`, `/chat network`, `/chat staff`, or by sending a message directly (e.g. `/chat network hello all`).
-- `/msg`, `/r` (aliases `/reply`, `/report`) support network-wide private messages with ignore protection and quick replies.
+- `/msg`, `/r` (aliases `/reply`) support network-wide private messages with ignore protection and quick replies.
 - `/chat ignore` manages personal ignore lists (staff cannot be ignored).
 - `/chat alert <message>` broadcasts to the entire network for staff.
 - Every prefix, format, and feedback line is configurable in `config.yml`.
@@ -20,7 +20,7 @@ VelocityChat is a Velocity proxy plugin that unifies chat across a network while
 | `/chat ignore [player]` | Toggle ignoring a player (lists ignores when used without a name). | `velocitychat.use` (default) |
 | `/chat alert <message>` | Send a network-wide alert. | `Velocitychat.staff` |
 | `/msg <player> <message>` | Send a private message across servers. | `velocitychat.use` (default) |
-| `/r <message>` | Reply to the last private message (aliases: `/reply`, `/report`). | `velocitychat.use` (default) |
+| `/r <message>` | Reply to the last private message (alias: `/reply`). | `velocitychat.use` (default) |
 
 > All players can use the base chat commands without extra permissions. Only staff members (holders of `Velocitychat.staff`) can access the staff channel and alert command.
 
