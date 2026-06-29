@@ -15,14 +15,14 @@ VelocityChat is a Velocity proxy plugin that unifies chat across a network while
 | --- | --- | --- |
 | `/chat server` | Speak only to the local server chat. | `velocitychat.use` (default) |
 | `/chat network [message]` | Switch your speaking channel to network; optional message sends immediately. | `velocitychat.use` (default) |
-| `/chat staff [message]` | Switch your speaking channel to staff; optional message sends immediately. | `Velocitychat.staff` |
-| `/chat listen <network\|staff> [on\|off]` | Toggle or explicitly enable/disable viewing of extra channels. | `velocitychat.use` (default) for network, `Velocitychat.staff` for staff |
+| `/chat staff [message]` | Switch your speaking channel to staff; optional message sends immediately. | `velocitychat.staff` |
+| `/chat listen <network\|staff> [on\|off]` | Toggle or explicitly enable/disable viewing of extra channels. | `velocitychat.use` (default) for network, `velocitychat.staff` for staff |
 | `/chat ignore [player]` | Toggle ignoring a player (lists ignores when used without a name). | `velocitychat.use` (default) |
-| `/chat alert <message>` | Send a network-wide alert. | `Velocitychat.staff` |
+| `/chat alert <message>` | Send a network-wide alert. | `velocitychat.staff` |
 | `/msg <player> <message>` | Send a private message across servers. | `velocitychat.use` (default) |
 | `/r <message>` | Reply to the last private message (alias: `/reply`). | `velocitychat.use` (default) |
 
-> All players can use the base chat commands without extra permissions. Only staff members (holders of `Velocitychat.staff`) can access the staff channel and alert command.
+> All players can use the base chat commands without extra permissions. Only staff members (holders of `velocitychat.staff`) can access the staff channel and alert command.
 
 ## Configuration
 After first launch, the plugin writes `plugins/VelocityChat/config.yml`. Key sections:
@@ -43,7 +43,7 @@ Minecraft 1.19.1+ signs chat messages. To cancel or modify a signed packet you m
 Without one of these options VelocityChat automatically falls back to server chat because the proxy is not allowed to stop signed messages.
 
 ## Building
-This project targets Java 17 and Velocity API `3.3.0-SNAPSHOT`.
+This project targets Java 17 and Velocity API `3.4.0`.
 
 ```bash
 mvn clean package

@@ -18,7 +18,7 @@ import java.util.Optional;
 import java.util.Set;
 
 public final class ChatCommand implements SimpleCommand {
-    private static final String STAFF_PERMISSION = "Velocitychat.staff";
+    private static final String STAFF_PERMISSION = "velocitychat.staff";
 
     private final ProxyServer proxy;
     private final ChatManager chatManager;

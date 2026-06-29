@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
  * Maintains channel state, ignore lists, and message dispatch.
  */
 public final class ChatManager {
-    private static final String STAFF_PERMISSION = "Velocitychat.staff";
+    private static final String STAFF_PERMISSION = "velocitychat.staff";
 
     private final ProxyServer proxy;
     private final VelocityChatConfig config;

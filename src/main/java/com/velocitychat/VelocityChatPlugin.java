@@ -30,7 +30,7 @@ import java.nio.file.Path;
         authors = { "elimcgehee" }
 )
 public final class VelocityChatPlugin {
-    private static final String STAFF_PERMISSION = "Velocitychat.staff";
+    private static final String STAFF_PERMISSION = "velocitychat.staff";
 
     private final ProxyServer proxy;
     private final Logger logger;
@@ -127,7 +127,7 @@ public final class VelocityChatPlugin {
         commandManager.register(
                 commandManager.metaBuilder("r")
                         .plugin(this)
-                        .aliases("reply", "report")
+                        .aliases("reply")
                         .build(),
                 replyCommand
         );
